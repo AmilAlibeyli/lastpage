@@ -1,0 +1,196 @@
+.wrapper7 {
+    font-family: roboto;
+    font-weight: 400;
+    background-color: black;
+    width: 1440px;
+    height: 390px;
+    margin: auto;
+    color: white;
+    padding: 50px 146px 23px 122px;
+    cursor: pointer;
+}
+
+.forflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number,
+.gmail {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.number {
+    margin-bottom: 3px;
+}
+
+.phonepic {
+    width: 27px;
+    height: 27px;
+    margin-right: 22px;
+    margin-bottom: 25px;
+}
+
+.mailpic {
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
+}
+
+.phoneflex {
+    display: flex;
+}
+
+.mailflex {
+    display: flex;
+}
+
+.logo {
+    width: 115px;
+    height: 68px;
+    margin-bottom: 30px;
+}
+
+.insta {
+    margin-right: 18px;
+}
+
+.fb {
+    margin-right: 21px;
+}
+
+.vk {
+    margin-right: 25px;
+}
+
+.footp {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 23px;
+}
+
+.social {
+    margin-bottom: 147px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 991.98px) {
+    .wrapper7 {
+        width: 834px;
+        height: 226px;
+        padding: 29px 84px 13px 70px;
+    }
+
+    .number,
+    .gmail {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .number {
+        margin-bottom: 1.8px;
+    }
+
+    .phonepic {
+        width: 16px;
+        height: 16px;
+        margin-right: 13px;
+        margin-bottom: 14px;
+    }
+
+    .mailpic {
+        width: 16px;
+        height: 10.5px;
+        margin-right: 13px;
+    }
+
+    .logo {
+        width: 67px;
+        height: 39px;
+        margin-bottom: 17px;
+    }
+
+    .insta {
+        margin-right: 10px;
+    }
+
+    .fb {
+        margin-right: 12px;
+    }
+
+    .vk {
+        margin-right: 14px;
+    }
+
+    .footp {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 13px;
+    }
+
+    .social {
+        margin-bottom: 84px;
+    }
+
+
+
+
+    @media screen and (max-width: 599.98px) {
+        .wrapper7 {
+            width: 375px;
+            height: 251px;
+            padding: 29px 84px 13px 70px;
+        }
+
+        .number,
+        .gmail {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .number {
+            margin-bottom: 1.8px;
+        }
+
+        .phonepic {
+            width: 16px;
+            height: 16px;
+            margin-right: 13px;
+            margin-bottom: 14px;
+        }
+
+        .mailpic {
+            width: 16px;
+            height: 10.5px;
+            margin-right: 13px;
+        }
+
+        .logo {
+            width: 67px;
+            height: 39px;
+            margin-bottom: 17px;
+        }
+
+        .insta {
+            margin-right: 10px;
+        }
+
+        .fb {
+            margin-right: 12px;
+        }
+
+        .vk {
+            margin-right: 14px;
+        }
+
+        .footp {
+            font-size: 10px;
+            line-height: 10px;
+            margin-bottom: 13px;
+        }
+
+        .social {
+            margin-bottom: 84px;
+        }
+    }
+}
