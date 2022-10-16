@@ -21,8 +21,8 @@
     line-height: 25px;
 }
 
-.number {
-    margin-bottom: 3px;
+.gmail {
+    margin-top: 3px;
 }
 
 .phonepic {
@@ -40,10 +40,12 @@
 
 .phoneflex {
     display: flex;
+    align-items: baseline;
 }
 
 .mailflex {
     display: flex;
+    align-items: baseline;
 }
 
 .logo {
@@ -131,6 +133,7 @@
     .social {
         margin-bottom: 84px;
     }
+}
 
 
 
@@ -141,56 +144,58 @@
             height: 251px;
             padding: 29px 84px 13px 70px;
         }
+        .forflex{
+            display: block;
+        }
 
         .number,
         .gmail {
-            font-size: 14px;
-            line-height: 14px;
+            font-size: 12px;
+            line-height: 12px;
         }
 
         .number {
-            margin-bottom: 1.8px;
+            margin-bottom: 1.4px;
         }
 
         .phonepic {
-            width: 16px;
-            height: 16px;
-            margin-right: 13px;
-            margin-bottom: 14px;
+            width: 12.5px;
+            height: 12.5px;
+            margin-right: 10px;
+            margin-bottom: 12px;
         }
 
         .mailpic {
-            width: 16px;
-            height: 10.5px;
-            margin-right: 13px;
-        }
-
-        .logo {
-            width: 67px;
-            height: 39px;
-            margin-bottom: 17px;
-        }
-
-        .insta {
+            width: 12.5px;
+            height: 8px;
             margin-right: 10px;
         }
 
+        .logo {
+            width: 54px;
+            height: 31px;
+            margin-bottom: 14px;
+        }
+
+        .insta {
+            margin-right: 8px;
+        }
+
         .fb {
-            margin-right: 12px;
+            margin-right: 10px;
         }
 
         .vk {
-            margin-right: 14px;
+            margin-right: 12px;
         }
 
         .footp {
             font-size: 10px;
             line-height: 10px;
-            margin-bottom: 13px;
+            margin-bottom: 10px;
         }
 
         .social {
-            margin-bottom: 84px;
+            margin-bottom: 50px;
         }
     }
-}
